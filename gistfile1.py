@@ -33,6 +33,7 @@ def read_osm(filename_or_stream, only_roads=True):
     Examples
     --------
     >>> G=nx.read_osm(nx.download_osm(-122.33,47.60,-122.31,47.61))
+    >>> plot([G.node[n]['data'].lat for n in G], [G.node[n]['data'].lon for n in G], ',')
 
     """
     osm = OSM(filename_or_stream)
