@@ -4,6 +4,10 @@ Read directional graph from Open Street Maps osm format
 Based on the osm to networkx tool from aflaxman : https://gist.github.com/aflaxman/287370/
 Use python3.6
 
+Added : 
+- : Python3.6 compatibility
+- : Cache for avoiding to download again the same osm tiles
+- : distance computation to estimate length of each ways (useful to compute the shortest path)
 
 Copyright (C) 2017 Loïc Messal (github : Tofull)
 
